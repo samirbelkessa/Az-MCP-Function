@@ -40,4 +40,4 @@ jobs:
           app-name: 'func-MCP-dev-001'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F18FC10D8F8E4414885ABEA215BB87DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B95CC068675646F484DED672C0B7119F }}
